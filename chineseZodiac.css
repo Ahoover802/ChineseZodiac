@@ -1,0 +1,22 @@
+#center{
+  background-image: url(redSandpaper.jpg);
+  padding-bottom:10px;
+}
+#body{
+  background-image: url('goldBackground.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-top:30px;
+  padding-right:25%;
+  padding-left:25%;
+}
+#year{
+  
+}
+#button:active {
+  background-color:gold;
+  transform: translateY(4px);
+  box-shadow: 0 8px 16px 0;
+  text-align: center;
+}

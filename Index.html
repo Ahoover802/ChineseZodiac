@@ -1,0 +1,72 @@
+<html>
+<head>
+  <title> ChineseZodiac.html </title>
+  <link rel = "stylesheet" href = "chineseZodiac.css">
+  <script>
+  function findAnimal()
+  {
+    var birthYear = document.getElementById("year").value;
+    if(birthYear % 12 === 0)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Monkey.png'>";
+    }
+    if(birthYear % 12 == 1)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Rooster.png'>";
+    }
+    if(birthYear % 12 == 2)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Dog.png'>";
+    }
+    if(birthYear % 12 == 3)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Pig.png'>";
+    }
+    if(birthYear % 12 == 4)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Rat.png'>";
+    }
+    if(birthYear % 12 == 5)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Ox.png'>";
+    }
+    if(birthYear % 12 == 6)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Tiger.png'>";
+    }
+    if(birthYear % 12 == 7)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Rabbit.png'>";
+    }
+    if(birthYear % 12 == 8)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Dragon.png'>";
+    }
+    if(birthYear % 12 == 9)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Snake.png'>";
+    }
+    if(birthYear % 12 == 10)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Horse.png'>";
+    }
+    if(birthYear % 12 == 11)
+    {
+      document.getElementById("pic").innerHTML = "<img src = 'Goat.png'>";
+    }
+    //example document.getElementById("pic").innerHTML = "<img src = 'Rat.png'>";
+  }
+  </script>
+</head>
+<body id = "body">
+  <center id = "center">
+   <h2>Enter the year you were born</h2>
+   <input type ="text" id = "year">
+   <input type = "button" id = "button" value = "ENTER" onclick = "findAnimal()">
+   <br>
+ </center>
+ <center>
+   <span id = "pic"> </span>
+ </center>
+ </body>
+</html>
